@@ -1,0 +1,34 @@
+# Python virtual environments
+venv/
+venv311/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large datasets
+data/
+
+# Sentinel-1 raw satellite data
+*.SAFE/
+sentinel1_wakashio/
+
+# Large raster files
+*.tif
+*.tiff
+
+# Temporary/archive files
+*.zip
+*.tmp
+*.log
+
+# Environment files / API keys
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+models/*.keras
